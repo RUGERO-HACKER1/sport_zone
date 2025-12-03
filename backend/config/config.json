@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "@RUGfid20070825",
+    "database": "sport_zone",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 2007
+  },
+  "test": {
+    "username": "postgres",
+    "password": "your_password",
+    "database": "dls_tournament_test",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
